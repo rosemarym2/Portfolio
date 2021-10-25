@@ -18,7 +18,7 @@
         class ="Photo" 
         src="https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1024-512,f_auto,q_auto:best/newscms/2019_33/2203981/171026-better-coffee-boost-se-329p.jpg" alt="Cup of Coffee" 
         width= "440px" 
-        height="250px"/></br></h2></h2>
+        height="250px"/></br></h2>
     <h3>Favourite Food
         <ul>
             <li>Pizza</li>
@@ -55,14 +55,44 @@
         </p>
     </h5>
     <h6>
-        <form>
-        <div>
-            <label>Username</label>
-            <input type="text" name="Username" id= "Username">
+        <form id="Username-Password Form">
+        <div class="Form Group">
+            <label id="Username">Username</label>
+            <input 
+            type="text" 
+            name="Username" 
+            id= "Username"
+            placeholder="username"
+            >
         </div>
-        <div>
-            <label>Password</label>
-            <input type="password" name="Password" id= "Password">
+        <div class="Form Group">
+            <label id="Password">Password</label>
+            <input 
+            type="password" 
+            name="Password" 
+            id= "Password"
+            placeholder="password"
+            >
+        </div>   
+        <div class="Form Group">
+            <label id="email-label" 
+            for="email">Email</label>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              class="form-control"
+              placeholder="please enter your email"
+              required
+            /> 
+            <div>
+            <label for="Course Type">Please select your course type</label> <br>
+            <label><input type="radio" name="Course Type" id="Course Type"/>Master Software</label><br>
+            <label><input type="radio" name="Course Type" id="Course Type"/>Master Cyber</label><br>
+              </div>
+        </div>
+        <div class="reset-submit buttons"> 
+            <button type= "Reset">Reset</button>
             <button type="submit">Submit</button>
         </div>
         </form>
