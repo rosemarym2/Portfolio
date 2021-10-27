@@ -27,6 +27,13 @@ h6 {
     border-radius: 0%;
     box-shadow: 5px 5px 8px grey;
   }
+  .guilty-pleasure-film-1 {
+    max-width: 500px;
+    display: block;
+    margin: 0;
+    border-radius: 0%;
+    box-shadow: 5px 5px 8px grey;
+  }
 .social-links {
   display: flex;
   list-style-type: none;
